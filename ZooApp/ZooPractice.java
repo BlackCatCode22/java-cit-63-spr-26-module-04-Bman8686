@@ -1,14 +1,14 @@
 package ZooApp;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+
+import ZooApp.*;
+
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class ZooPractice { public static void main(String[] args) {
+public class ZooPractice { public static void main(String[] args) throws FileNotFoundException {
     ArrayList<Animal> animalList = new ArrayList<>();
     HashMap<String, Integer> speciesCount = new HashMap<>();
 
