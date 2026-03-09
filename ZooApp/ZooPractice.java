@@ -1,8 +1,6 @@
 package ZooApp;
 
 
-import ZooApp.*;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
